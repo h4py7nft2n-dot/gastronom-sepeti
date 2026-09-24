@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gastronom Sepeti | Endüstriyel Mutfak Ekipmanları</title>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+  background:#0f0f0f;
+  color:#fff;
+}
+header{
+  background:#181818;
+  padding:18px 20px;
+  border-bottom:1px solid #333;
+  position:sticky;
+  top:0;
+  z-index:10;
+}
+.logo{
+  font-size:23px;
+  font-weight:800;
+}
+.logo span{color:#ff7417}
+
+.hero{
+  padding:55px 22px;
+  text-align:center;
+  background:linear-gradient(145deg,#151515,#242424);
+}
+.hero .badge{
+  display:inline-block;
+  background:#382518;
+  color:#ff7417;
+  padding:7px 14px;
+  border-radius:20px;
+  margin-bottom:18px;
+  font-weight:600;
+}
+.hero h1{
+  font-size:38px;
+  line-height:1.1;
+  margin-bottom:15px;
+}
+.hero h1 span{color:#ff7417}
+.hero p{
+  color:#bbb;
+  max-width:600px;
+  margin:auto;
+  line-height:1.6;
+}
+
+.buttons{
+  margin-top:28px;
+  display:flex;
+  gap:12px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+.btn{
+  padding:14px 22px;
+  border-radius:12px;
+  text-decoration:none;
+  font-weight:700;
+}
+.primary{
+  background:#ff7417;
+  color:white;
+}
+.secondary{
+  border:1px solid #555;
+  color:white;
+}
+
+section{
+  max-width:1100px;
+  margin:auto;
+  padding:45px 20px;
+}
+.section-title{
+  font-size:28px;
+  margin-bottom:8px;
+}
+.section-desc{
+  color:#999;
+  margin-bottom:25px;
+}
+
+.products{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+}
+.product{
+  background:#202020;
+  border:1px solid #333;
+  border-radius:18px;
+  overflow:hidden;
+}
+.product-top{
+  height:210px;
+  background:linear-gradient(145deg,#333,#171717);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:70px;
+}
+.product-info{
+  padding:20px;
+}
+.product-info h3{
+  font-size:21px;
+  margin-bottom:10px;
+}
+.product-info p{
+  color:#aaa;
+  line-height:1.55;
+  font-size:14px;
+}
+.tag{
+  display:inline-block;
+  margin-top:15px;
+  padding:7px 11px;
+  background:#382518;
+  color:#ff7417;
+  border-radius:8px;
+  font-size:13px;
+  font-weight:700;
+}
+
+.features{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:15px;
+}
+.feature{
+  background:#1d1d1d;
+  border:1px solid #333;
+  padding:22px;
+  border-radius:15px;
+  text-align:center;
+}
+.feature b{
+  display:block;
+  margin-top:8px;
+}
+.feature span{
+  font-size:30px;
+}
+
+.cta{
+  margin:20px;
+  padding:40px 20px;
+  border-radius:22px;
+  text-align:center;
+  background:linear-gradient(135deg,#ff7417,#b94900);
+}
+.cta h2{
+  font-size:30px;
+  margin-bottom:10px;
+}
+.cta p{
+  margin-bottom:22px;
+}
+.cta a{
+  display:inline-block;
+  background:white;
+  color:#111;
+  padding:14px 24px;
+  border-radius:10px;
+  text-decoration:none;
+  font-weight:800;
+}
+
+footer{
+  text-align:center;
+  color:#777;
+  padding:35px 20px;
+  border-top:1px solid #292929;
+}
+
+@media(max-width:600px){
+  .hero h1{font-size:32px}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">Gastronom <span>Sepeti</span></div>
+</header>
+
+<div class="hero">
+  <div class="badge">Profesyonel Mutfak Çözümleri</div>
+
+  <h1>
+    İşletmeniz İçin<br>
+    <span>Profesyonel Ekipmanlar</span>
+  </h1>
+
+  <p>
+    Endüstriyel mutfak, cafe ve bar ekipmanlarında
+    toptan ve perakende satış.
+  </p>
+
+  <div class="buttons">
+    <a href="#urunler" class="btn primary">Ürünleri İncele</a>
+    <a href="#iletisim" class="btn secondary">Teklif Al</a>
+  </div>
+</div>
+
+<section id="urunler">
+  <h2 class="section-title">Öne Çıkan Ürünler</h2>
+  <p class="section-desc">
+    İşletmeniz için profesyonel ve pratik çözümler.
+  </p>
+
+  <div class="products">
+
+    <div class="product">
+      <div class="product-top">🧅</div>
+      <div class="product-info">
+        <h3>Soğan Doğrama Makinesi</h3>
+        <p>
+          8 LT ve 11 LT seçenekleri. Soğan doğrama,
+          iç harç hazırlama, tarhana öğütme, domates sosu,
+          mayonez ve birçok farklı hazırlık işlemi için uygundur.
+          11 LT modelde çift bıçak seçeneği bulunmaktadır.
+        </p>
+        <div class="tag">Teklif İsteyin</div>
+      </div>
+    </div>
+
+    <div class="product">
+      <div class="product-top">🍅</div>
+      <div class="product-info">
+        <h3>Salça Makinesi</h3>
+        <p>
+          Profesyonel domates ve biber salçası üretimi için
+          yüksek kapasiteli, paslanmaz gövdeli çözümler.
+        </p>
+        <div class="tag">Detaylı Bilgi</div>
+      </div>
+    </div>
+
+    <div class="product">
+      <div class="product-top">🥖</div>
+      <div class="product-info">
+        <h3>Hamur Yoğurma Makinesi</h3>
+        <p>
+          10 kg, 15 kg, 25 kg ve 35 kg seçenekleriyle
+          profesyonel üretim için güçlü ve kullanışlı yapı.
+        </p>
+        <div class="tag">Modelleri İncele</div>
+      </div>
+    </div>
+
+    <div class="product">
+      <div class="product-top">☕</div>
+      <div class="product-info">
+        <h3>Çay Kazanları</h3>
+        <p>
+          Cafe, restoran ve işletmeler için farklı kapasite
+          seçeneklerinde profesyonel çay kazanları.
+        </p>
+        <div class="tag">Fiyat Sor</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2 class="section-title">Neden Gastronom Sepeti?</h2>
+  <p class="section-desc">
+    Profesyonel işletmelere uygun ürün çözümleri.
+  </p>
+
+  <div class="features">
+    <div class="feature">
+      <span>🏭</span>
+      <b>Endüstriyel Ürünler</b>
+    </div>
+
+    <div class="feature">
+      <span>📦</span>
+      <b>Toptan Satış</b>
+    </div>
+
+    <div class="feature">
+      <span>🛒</span>
+      <b>Perakende Satış</b>
+    </div>
+
+    <div class="feature">
+      <span>🚚</span>
+      <b>Türkiye Geneli Sevkiyat</b>
+    </div>
+  </div>
+</section>
+
+<div class="cta" id="iletisim">
+  <h2>İşletmeniz İçin Teklif Alın</h2>
+  <p>
+    Ürünler, bayi fiyatları ve toplu alımlar hakkında
+    bizimle iletişime geçin.
+  </p>
+  <a href="#">Gastronom Sepeti ile İletişime Geç</a>
+</div>
+
+<footer>
+  © 2026 Gastronom Sepeti<br><br>
+  Endüstriyel Mutfak • Cafe • Bar Ekipmanları
+</footer>
+
+</body>
+</html>
